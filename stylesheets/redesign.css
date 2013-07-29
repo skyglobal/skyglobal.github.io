@@ -1,102 +1,136 @@
+/* line 3, ../sass/redesign.scss */
 body {
   margin: 0;
   font-family: SkyTextRegular, Helvetica, Sans-Serif;
   font-size: 16px;
 }
 
+/* line 9, ../sass/redesign.scss */
+.strapline {
+  font-size: 2em;
+}
+
+/* line 14, ../sass/redesign.scss */
 .wrapper {
   width: 960px;
-  margin: 100px auto 0; }
+  margin: 50px auto 0;
+}
 
+/* line 19, ../sass/redesign.scss */
 h1 {
   font-size: 75px;
-  margin: 0px 0 50px; 
+  margin: 0px 0 50px;
   font-weight: normal;
+  color: #0073c5;
   font-family: SkyTextMedium;
   color: #0077ae;
 }
 
-.strapline{
-  font-size: 2em;
-}
-
+/* line 28, ../sass/redesign.scss */
 ul.showcase {
   *zoom: 1;
   padding: 0px;
-  list-style: none; }
-  ul.showcase:before, ul.showcase:after {
-    content: " ";
-    display: table; }
-  ul.showcase:after {
-    clear: both; }
-  ul.showcase li {
-    position: relative;
-    float: left;
-    width: 30%;
-    margin-left: 5%; }
-    ul.showcase li:first-child {
-      margin: 0; }
-    ul.showcase li a {
-      -webkit-transform: scale(0.7);
-      -moz-transform: scale(0.7);
-      -ms-transform: scale(0.7);
-      -o-transform: scale(0.7);
-      transform: scale(0.7);
-      background-repeat: no-repeat;
-      height: 256px;
-      width: 256px;
-      display: block; }
-      ul.showcase li a:hover {
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-        -webkit-transform: scale(1);
-        -moz-transform: scale(1);
-        -ms-transform: scale(1);
-        -o-transform: scale(1);
-        transform: scale(1); }
-    ul.showcase li .tooltip {
-      display: block;
-      bottom: -45px;
-      position: absolute;
-      padding: 10px 0;
-      border-radius: 5px;
-      background-color: #000;
-      color: #FFF;
-      width: 256px;
-      text-align: center;
-      padding: 10px; }
-      ul.showcase li .tooltip:before {
-        content: "";
-        width: 0;
-        height: 0;
-        border-left: 15px solid transparent;
-        border-right: 15px solid transparent;
-        border-bottom: 15px solid #000;
-        position: absolute;
-        top: -14px;
-        left: 114px; }
-      ul.showcase li .tooltip .desc {
-        color: #dddddd; }
+  list-style: none;
+}
+/* line 18, ../sass/bourbon/addons/_clearfix.scss */
+ul.showcase:before, ul.showcase:after {
+  content: " ";
+  display: table;
+}
+/* line 23, ../sass/bourbon/addons/_clearfix.scss */
+ul.showcase:after {
+  clear: both;
+}
+/* line 35, ../sass/redesign.scss */
+ul.showcase li {
+  position: relative;
+  float: left;
+  width: 30%;
+  margin-left: 5%;
+}
+/* line 42, ../sass/redesign.scss */
+ul.showcase li:first-child {
+  margin: 0;
+}
+/* line 46, ../sass/redesign.scss */
+ul.showcase li a {
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  -o-transform: scale(0.7);
+  transform: scale(0.7);
+  background-repeat: no-repeat;
+  height: 256px;
+  width: 256px;
+  display: block;
+}
+/* line 53, ../sass/redesign.scss */
+ul.showcase li a:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+/* line 59, ../sass/redesign.scss */
+ul.showcase li .tooltip {
+  display: block;
+  bottom: -45px;
+  position: absolute;
+  padding: 10px 0;
+  border-radius: 5px;
+  background-color: #000;
+  color: #FFF;
+  width: 256px;
+  text-align: center;
+  padding: 10px;
+}
+/* line 71, ../sass/redesign.scss */
+ul.showcase li .tooltip:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #000;
+  position: absolute;
+  top: -14px;
+  left: 114px;
+}
+/* line 82, ../sass/redesign.scss */
+ul.showcase li .tooltip .desc {
+  color: #dddddd;
+}
 
+/* line 89, ../sass/redesign.scss */
 a#octocat {
-  background-image: url("../images/octocat.png"); }
+  background-image: url("../images/octocat.png");
+}
 
+/* line 93, ../sass/redesign.scss */
 a#toolkit {
-  background-image: url("../images/toolbox.png"); }
+  background-image: url("../images/toolbox.png");
+}
 
+/* line 97, ../sass/redesign.scss */
 a#binoculars {
-  background-image: url("../images/binoculars.png"); }
+  background-image: url("../images/binoculars.png");
+}
 
+/* line 101, ../sass/redesign.scss */
 .tooltip {
-  display: none; }
+  display: none;
+}
 
+/* line 105, ../sass/redesign.scss */
 .sky-logo {
-  background-image: url('../images/sky-logo.png');
+  background-image: url("../images/sky-logo.png");
   width: 111px;
   height: 69px;
-  margin-top:15px;
-  float:left;
+  margin-top: 15px;
+  float: left;
   display: inline-block;
-
 }
