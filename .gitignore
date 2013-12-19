@@ -1,0 +1,10 @@
+.idea
+.sass-cache
+.DS_Store
+.ruby-version
+*iws
+*ipr
+*iml
+node_modules/
+grunt/fonts/min
+dist/scripts/build.txt
