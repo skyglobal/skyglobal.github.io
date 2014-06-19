@@ -57,10 +57,11 @@ a:hover img{
     position: fixed; bottom: 0;
 }
 .skycon-sky{
-    font-size:1.75em;
-    height:0.7em;
+    font-size: 1.75em;
+    height: 0.7em;
 }
 
-a > img{
-    border: 0;
+a, img{
+    border: none;
+    outline: none;
 }
