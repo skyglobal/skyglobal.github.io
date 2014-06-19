@@ -31,6 +31,7 @@ body a:hover{
 }
 
 img{
+    width:131px;
     margin:24px 0;
     display: block;
     -webkit-transition: all 0.3s ease-in-out;
@@ -58,4 +59,8 @@ a:hover img{
 .skycon-sky{
     font-size:1.75em;
     height:0.7em;
+}
+
+a > img{
+    border: 0;
 }
